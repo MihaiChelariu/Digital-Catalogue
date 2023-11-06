@@ -2,7 +2,7 @@
 
 ## Description
 
-I have built a virtual catalog using Nest.js on the backend side, similar to the one offered by the university [UPB Catalogue]https://studenti.pub.ro/, to display and manage the final academic performance (average, number of absences) of students from a specific school or high school in an efficient and user-friendly manner.
+I have built a virtual catalog using Nest.js on the backend side, similar to the one offered by the university https://studenti.pub.ro/, to display and manage the final academic performance (average, number of absences) of students from a specific school or high school in an efficient and user-friendly manner.
 
 Students will be added to a database where their grades, absences, and personal data are stored for the long term.
 
