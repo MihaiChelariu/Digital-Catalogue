@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"], button {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#usersTable {
+  display: flex;
+  justify-content: center;
+}
+
+#usersTable ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#usersTable li.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#usersTable li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#usersTable li.header span {
+  flex-basis: 20%;
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#usersTable li span {
+  flex-basis: 20%;
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+#usersTable li .actions {
+  flex-basis: 20%;
+}
+
+#usersTable li .actions button {
+  margin-left: 10px;
+}
+
+ 
+
+
